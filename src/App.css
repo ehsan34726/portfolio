@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+:root {
+  --primary-white: #fff;
+  --primary-burlywood: #deb887;
+  --primary-dark: rgba(255, 255, 255, 0);
+}
+
+.body {
+  font-family: "Roboto Condesed" sans-serif;
+}
+/* Navbar */
+
+/* .photo {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+} */
+
+nav p.name {
+  color: #deb887 !important;
+  margin-top: 1.395rem;
+  font-size: 1.35rem;
+  font-style: italic;
+}
+.navbar-brand {
+  max-width: 11rem;
+  padding: 0 !important;
+  height: 5rem !important;
+}
+
+nav a.nav-link {
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  color: var(--primary-white) !important;
+  margin-right: 0.75rem;
+  margin-left:0.75rem;
+  border-top: 0.1875rem solid var(--primary-dark);
+}
+
+
+.navbar-nav > li > a.active, .navbar-nav > li a.active:focus {
+  border-top: 0.1875rem solid var(--primary-burlywood);
+}
+
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid var(--primary-burlywood);
+}
+
+.navbar-toggler {
+  border-color: var(--primary-burlywood) !important;
+}
